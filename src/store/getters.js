@@ -1,0 +1,20 @@
+const getters = {
+  sidebar: state => state.app.sidebar,
+  topmodule: state => state.app.topmodule,
+  isLogOperation: state => state.app.isLogOperation,
+  language: state => state.app.language,
+  device: state => state.app.device,
+  visitedViews: state => state.tagsView.visitedViews,
+  cachedViews: state => state.tagsView.cachedViews,
+  status: state => state.user.state,
+  permission_routers: state => state.permission.routers,
+  permission_routergroup: state => state.permission.routergroup,
+  addRouters: state => state.permission.addRouters,
+  errorLogs: state => state.errorLog.logs,
+  isLoadRooter: state => state.permission.isLoadRooter,
+  banner_logo: state => state.app.banner_logo,
+  login_background: state => state.app.login_background,
+  login_logo: state => state.app.login_logo,
+  title: state => state.app.title,
+}
+export default getters

@@ -1,0 +1,32 @@
+.tblContent
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #8DB2E3;
+    background-color: #FFFFFF;
+ 
+}
+.tblContent td
+{
+    border: solid 1px #D0D7E5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tblContent tr
+{
+    line-height: 25px;
+}
+.colTitle
+{
+    width: 200px;
+    text-align: right;
+    color: #3E6AAA;
+}
+
+.tblContent .trCaption td
+{
+    text-align: left;
+    text-indent: 10px;
+    font-weight: bold;
+    color: #3E6AAA;
+}

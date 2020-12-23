@@ -1,0 +1,170 @@
+.air-table__context--menu{
+  box-shadow:0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+  .air-table__context--list {
+      cursor: pointer;
+      height: 30px;
+    
+      .air-table__context--icon{
+          font-size: 14px;
+          color:#757575;
+          line-height: 30px;
+      }
+      .air-table__context--info{
+          font-size: 14px;
+          margin-left:20px;
+          color:#212121;
+          line-height: 30px;
+      }
+  }
+  .air-table__context--list:hover{
+      background: #f5f5f5;
+  }
+}
+
+.sortable-ghost{
+    opacity: .8;
+    color: #fff!important;
+    background: #42b983!important;
+  }
+  .avatar-uploader .el-upload {
+      border: 1px dashed #d9d9d9;
+      border-radius: 6px;
+      cursor: pointer;
+      position: relative;
+      vertical-align: bottom;
+    }
+    .avatar-uploader .el-upload:hover {
+      border-color: #409EFF;
+    }
+    .avatar-uploader-icon {
+      font-size: 28px;
+      color: #8c939d;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .avatar {
+      width:50px;
+      height: 50px;
+      display: block;
+    }
+    .picList .el-upload-list__item,.picList .el-upload{
+      width:50px;
+      height: 50px;
+    }
+
+.fun-container{margin-bottom: 10px;}
+.pagination-container{text-align: center;}
+
+.icon-star{
+  margin-right:2px;
+}
+.drag-handler{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.show-d{
+  margin-top: 15px;
+}
+
+.view-table{
+  border-collapse: collapse;
+  width:100%;
+  border:1px solid #c6c6c6 !important;
+  margin-bottom:20px;
+}
+.view-table th{
+  border-collapse: collapse;
+  border-right:1px solid #c6c6c6 !important;
+  border-bottom:1px solid #c6c6c6 !important;
+  background-color:#ddeeff !important; 
+  padding:5px 9px;
+  font-size:14px;
+  font-weight:normal;
+  text-align:center;
+}
+.view-table td{
+  border-collapse: collapse;
+  border-right:1px solid #c6c6c6 !important;
+  border-bottom:1px solid #c6c6c6 !important; 
+  padding:5px 9px;
+  font-size:12px;
+  font-weight:normal;
+  text-align:center;
+  word-break: break-all;
+}
+.view-table tr:nth-child(odd){
+  background-color:#fff !important; 
+}
+.view-table tr:nth-child(even){
+  background-color: #f8f8f8 !important;
+}
+
+.view-table .trCaption{
+  font-weight: bolder;
+}
+
+.treeHead{
+  line-height: 40px;
+  font-size: 20px;
+  background-color: rgb(238, 241, 246);
+  height:40px !important;
+  cursor: pointer;
+}
+.treeTopMenu{
+  height:40px !important;
+}
+
+.viewInfo .el-row{
+  padding-bottom:15px;
+}
+.viewInfo .viewTitle{
+  font-weight: bold;
+}
+.el-dialog__body{ 
+  padding: 0px 20px !important;
+}
+.editImageDialog .el-dialog__body{ 
+  padding: 30px 20px !important;
+}
+.el-tree .is-current>.el-tree-node__content{font-weight: bold;}
+
+.red{color:#ff0000;}
+
+.custom-tree-node {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+}
+.el-tree-node{
+      margin: 5px 0;
+}
+.custom-tree-node:hover{
+  background-color: #efefef;
+}
+.el-tree .is-drop-inner>.el-tree-node__content{background-color: #69cab9;}
+
+
+
+.table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+
+.el-table button{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.air-table__context--list .fa{
+  width: 14px;
+  text-align: center;
+}
+.avatar-uploader{
+  display: inline-block;
+}

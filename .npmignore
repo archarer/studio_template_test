@@ -1,0 +1,10 @@
+.*
+*.md
+*.yml
+build/
+node_modules/
+src/
+test/
+config/
+static/
+typings/
